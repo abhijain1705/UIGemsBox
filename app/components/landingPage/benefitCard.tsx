@@ -10,7 +10,7 @@ type BenefitCardProp = {
 
 const BenefitCard = ({ icon, label, message }: BenefitCardProp) => {
   return (
-    <div className="relative max-w-[600px] sm:w-[300px] sm:h-[400px] flex flex-col justify-between overflow-hidden rounded-md border border-purple-200/20 bg-white/5 transition-colors hover:border-purple-300/50">
+    <div className="relative flex flex-col justify-between overflow-hidden rounded-md border border-purple-200/20 bg-white/5 transition-colors hover:border-purple-300/50">
       <div className="flex items-center space-x-4 bg-white/10 p-2 pl-5 transition-colors hover:bg-white/20">
         <FontAwesomeIcon
           color="#398CCB"

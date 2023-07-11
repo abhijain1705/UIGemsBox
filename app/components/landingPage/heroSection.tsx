@@ -12,8 +12,8 @@ const HeroSection = () => {
       </h1>
       <div className="flex items-center justify-center gap-3">
         <Link
-          href={"/docs"}
-          className="text-gray-300 flex items-center justify-center gap-3 p-3 rounded-2xl bg-[#7a62f6]"
+          href={"/docs/#Welcome_Introduction_Introduction"}
+          className="text-[#e8ddff] flex items-center justify-center gap-3 p-3 rounded-2xl bg-[#7a62f6]"
         >
           <span>Documentation</span>
           <FontAwesomeIcon
@@ -26,7 +26,7 @@ const HeroSection = () => {
         <Link
           href={githubURL}
           target="_blank"
-          className="text-gray-300 flex items-center justify-center gap-3 p-3 rounded-2xl bg-[#7a62f6]"
+          className="text-[#e8ddff] flex items-center justify-center gap-3 p-3 rounded-2xl bg-[#7a62f6]"
         >
           <span>Github</span>
           <FontAwesomeIcon

@@ -13,23 +13,31 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { discordInvitation, faqs, githubURL } from "@/constant/utils";
 import { faGithub, faDiscord } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import SideMenuInDocs from "./components/common/sideMenuInDocs";
 
 export default function Home() {
   const [toggleHeader, settoggleHeader] = useState(false);
   const [currentFAQ, setcurrentFAQ] = useState(-1);
+  const [currentSelectedResourceLabel, setcurrentSelectedResourceLabel] =
+    useState("");
 
   return (
-    <main className="flex flex-col min-h-screen">
-      <section className="h-[100vh] p-6 flex flex-col">
-        <Header
-          whereBeingUsed="Home"
-          toggleHeader={toggleHeader}
-          settoggleHeader={settoggleHeader}
-        />
-        <HeroSection />
-      </section>
-      {!toggleHeader && (
+    <main className="flex relative flex-col min-h-screen">
+      <Header toggleHeader={toggleHeader} settoggleHeader={settoggleHeader} />
+      {toggleHeader ? (
+        <section className="bg-[#0F1729] flex flex-col w-full h-screen p-6 pt-[100px]">
+          <SideMenuInDocs
+            toggleHeader={toggleHeader}
+            settoggleHeader={settoggleHeader}
+            currentVal={currentSelectedResourceLabel}
+            onChange={(value) => setcurrentSelectedResourceLabel(value)}
+          />
+        </section>
+      ) : (
         <>
+          <section className="h-[100vh] flex flex-col">
+            <HeroSection />
+          </section>
           <section className="min-h-screen lg:h-[100vh] p-6 flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center">
               <h3 className="text-center text-[#c3b4fc] text-[25px]">

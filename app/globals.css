@@ -30,3 +30,25 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #0f1729;
 }
+
+/* Styles for the track (empty space) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color for the empty space */
+  border-radius: 20px; /* Adjust the border radius as needed */
+}
+
+/* Styles for the thumb (scrollable area) */
+::-webkit-scrollbar-thumb {
+  background: #7a62f6; /* Set the background color for the thumb */
+  border-radius: 20px; /* Adjust the border radius as needed */
+}
+
+/* Styles for the scrollbar itself */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Optional: Styles for the corner of the scrollbar */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Set the background color for the corner */
+}
