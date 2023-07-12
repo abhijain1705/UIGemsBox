@@ -36,5 +36,7 @@ Our roadmap includes the following upcoming features and improvements:
 Enjoy using the Frontend Velocity UI Library! If you have any questions, suggestions, or feedback, please don't hesitate to reach out. 
 Happy coding!
 
-[[!Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/XngmYvUS)
-[[!Ask a Question](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/abhijain1705/frontend-velocity/issues/new?title=Hey,%20I%20have%20a%20question%20for%20%22Frontend%20Velocity%22?&labels=feedback)
+[![Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/XngmYvUS)
+
+[![Ask a Question](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)]([https://discord.gg/XngmYvUS](https://github.com/abhijain1705/frontend-velocity/issues/new?title=Hey,%20I%20have%20a%20question%20for%20%22Frontend%20Velocity%22?&labels=feedback))
+
