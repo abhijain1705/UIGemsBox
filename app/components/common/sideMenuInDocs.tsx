@@ -22,7 +22,7 @@ const SideMenuInDocs = ({
           <h3 className="my-2 text-white text-xl">{content[0]}</h3>
           <ul>
             {content[1].map((label, ind) => (
-              <Link id={label} href={`#${content[0]}_${label}`} key={ind}>
+              <Link id={label} href={`${label}`} key={ind}>
                 <li
                   onClick={() => {
                     onChange(label);

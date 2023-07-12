@@ -27,9 +27,9 @@ const Header = ({ toggleHeader, settoggleHeader }: HeaderProp) => {
         </Link>
         <Link
           className={`${
-            pathname === "/docs" && "bg-purple-200/10"
+            pathname.includes("/docs") && "bg-purple-200/10"
           } md:block hidden rounded-md p-3 text-[#e8ddff] hover:text-purple-300 hover:bg-purple-200/10 cursor-pointer`}
-          href={"/docs/#Welcome_Introduction_Introduction"}
+          href={"/docs/Introduction"}
         >
           DOCS
         </Link>

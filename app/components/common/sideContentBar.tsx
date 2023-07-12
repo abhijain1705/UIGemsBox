@@ -2,22 +2,12 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 type SideContentBarProp = {
-  currentTab: string;
   headings: Array<string>;
 };
 
-const SideContentBar = ({ headings, currentTab }: SideContentBarProp) => {
+const SideContentBar = ({ headings }: SideContentBarProp) => {
   const [currentSelectedResourceLabel, setcurrentSelectedResourceLabel] =
-    useState("");
-
-  useEffect(() => {
-    const href = window.location.hash.split("_");
-    if (href[2]) {
-      setcurrentSelectedResourceLabel(
-        window.location.hash.split("_")[2].replaceAll("%20", " ")
-      );
-    }
-  }, []);
+    useState('');
 
   return (
     <div className="">
@@ -25,14 +15,14 @@ const SideContentBar = ({ headings, currentTab }: SideContentBarProp) => {
       {headings.map((list, index) => (
         <p
           onClick={() => setcurrentSelectedResourceLabel(list)}
-          id={list}
+          id={list.replaceAll(" ", "_")}
           className={`text-white ${
             currentSelectedResourceLabel === list &&
             "text-purple-300 bg-purple-200/10"
           } hover:text-purple-300 my-2 hover:bg-purple-200/10 px-1 rounded-md text-[13px] py-2 cursor-pointer`}
           key={index}
         >
-          <Link href={`/docs#${currentTab}_${list}`}>{list}</Link>
+          <Link href={`#${list}`}>{list}</Link>
         </p>
       ))}
     </div>

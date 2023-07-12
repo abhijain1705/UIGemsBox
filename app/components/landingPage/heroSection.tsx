@@ -12,7 +12,7 @@ const HeroSection = () => {
       </h1>
       <div className="flex items-center justify-center gap-3">
         <Link
-          href={"/docs/#Welcome_Introduction_Introduction"}
+          href={"/docs/Introduction"}
           className="text-[#e8ddff] flex items-center justify-center gap-3 p-3 rounded-2xl bg-[#7a62f6]"
         >
           <span>Documentation</span>

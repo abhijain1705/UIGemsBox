@@ -52,3 +52,8 @@ body {
 ::-webkit-scrollbar-corner {
   background: #f1f1f1; /* Set the background color for the corner */
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  outline: none;
+}
