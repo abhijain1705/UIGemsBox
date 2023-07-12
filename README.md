@@ -19,3 +19,22 @@ You can install the Frontend Velocity UI Library using npm or yarn:
 npm install frontend-velocity
 or
 yarn add frontend-velocity
+```
+
+### Contributing
+We welcome contributions from the community to make the Frontend Velocity UI Library even better. If you would like to contribute, please follow our contribution guidelines and submit a pull request. You can also open issues for bug reports, feature requests, or general feedback.
+
+### Roadmap
+Our roadmap includes the following upcoming features and improvements:
+
+- Additional UI components for various use cases
+- Theming support for easy customization
+- Accessibility enhancements
+- Integration with popular design systems
+- Stay tuned for exciting updates!
+
+Enjoy using the Frontend Velocity UI Library! If you have any questions, suggestions, or feedback, please don't hesitate to reach out. 
+Happy coding!
+
+[!Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)(https://discord.gg/XngmYvUS)
+[!Ask a Question](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)(https://github.com/abhijain1705/frontend-velocity/issues/new?title=Hey,%20I%20have%20a%20question%20for%20%22Frontend%20Velocity%22?&labels=feedback)
