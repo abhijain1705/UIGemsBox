@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Velocity UI Library
 
-## Getting Started
+Welcome to the Frontend Velocity UI Library! This library provides a comprehensive collection of reusable and customizable UI components designed to accelerate frontend development across various frameworks. Whether you're building a React, Vue, Angular, or plain HTML/CSS application, our UI library has got you covered.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- High-quality UI components built with modern design principles
+- Seamless integration with popular frontend frameworks and libraries
+- Customizable styles to fit your project's branding
+- Extensive documentation and examples for easy integration
+- Active community support and contributions
+- Regular updates and new component releases
+
+## Installation
+
+You can install the Frontend Velocity UI Library using npm or yarn:
+
+```shell
+npm install frontend-velocity
+or
+yarn add frontend-velocity
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Contributing
+We welcome contributions from the community to make the Frontend Velocity UI Library even better. If you would like to contribute, please follow our contribution guidelines and submit a pull request. You can also open issues for bug reports, feature requests, or general feedback.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Roadmap
+Our roadmap includes the following upcoming features and improvements:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Additional UI components for various use cases
+- Theming support for easy customization
+- Accessibility enhancements
+- Integration with popular design systems
+- Stay tuned for exciting updates
 
-## Learn More
+Please read our [Contribution Guidelines](https://github.com/abhijain1705/frontend-velocity/blob/main/Contribution.md) and [Code Of Conduct](https://github.com/abhijain1705/frontend-velocity/blob/main/CODE_OF_CONDUCT.md) before raising any issue.
 
-To learn more about Next.js, take a look at the following resources:
+### Built On
+![Nextjs](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Enjoy using the Frontend Velocity UI Library! If you have any questions, suggestions, or feedback, please don't hesitate to reach out. 
+Happy coding!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Discord](https://img.shields.io/badge/Discord-5865F2.svg?style=for-the-badge&logo=Discord&logoColor=white)](https://discord.gg/XngmYvUS)
 
-## Deploy on Vercel
+[![Ask a Question](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Clueless-Community/seamless-ui/issues/new?title=Feedback%20for%20%E2%80%9CWhat%20is%20SeamLess%20UI%20%3F%E2%80%9D&labels=feedback)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
