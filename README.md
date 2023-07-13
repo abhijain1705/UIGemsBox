@@ -31,7 +31,9 @@ Our roadmap includes the following upcoming features and improvements:
 - Theming support for easy customization
 - Accessibility enhancements
 - Integration with popular design systems
-- Stay tuned for exciting updates!
+- Stay tuned for exciting updates
+
+Please read our [Contribution Guidelines](https://github.com/abhijain1705/frontend-velocity/blob/main/Contribution.md) and [Code Of Conduct](https://github.com/abhijain1705/frontend-velocity/blob/main/CODE_OF_CONDUCT.md) before raising any issue.
 
 ### Built On
 ![Nextjs](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
