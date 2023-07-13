@@ -34,8 +34,8 @@ Our roadmap includes the following upcoming features and improvements:
 - Stay tuned for exciting updates!
 
 ### Built On
-[![Nextjs](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)]
-[![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)]
+![Nextjs](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
 
 Enjoy using the Frontend Velocity UI Library! If you have any questions, suggestions, or feedback, please don't hesitate to reach out. 
 Happy coding!
