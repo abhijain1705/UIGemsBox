@@ -34,4 +34,4 @@ This Code of Conduct applies to all project-related spaces, including but not li
 This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
 ### Contact
-If you have any questions or need further assistance regarding this Code of Conduct, please contact [Project Contact Person/Team].
+If you have any questions or need further assistance regarding this Code of Conduct, please contact to [Abhi Jain](abhikumarjain05@gmail.com)
