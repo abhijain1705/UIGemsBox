@@ -28,7 +28,6 @@ const Page = () => {
   const [toggleHeader, settoggleHeader] = useState(false);
   const [currentSelectedResourceLabel, setcurrentSelectedResourceLabel] =
     useState("");
-
   const pathname = usePathname();
   const option = pathname.split("/");
   useEffect(() => {
@@ -63,9 +62,7 @@ const Page = () => {
                 onChange={(value) => setcurrentSelectedResourceLabel(value)}
               />
             </div>
-            <div
-              className="p-6 h-full no-scrollbar overflow-auto"
-            >
+            <div className="p-6 h-full no-scrollbar overflow-auto">
               {componentMapping[currentSelectedResourceLabel] &&
                 componentMapping[currentSelectedResourceLabel]}
             </div>

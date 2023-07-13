@@ -46,6 +46,8 @@ export const faqs = [
 
 export const githubURL = "https://github.com/abhijain1705/frontend-velocity";
 export const discordInvitation = "https://discord.gg/XngmYvUS";
+export const questionLink =
+  "https://github.com/abhijain1705/frontend-velocity/issues/new?title=Hey,%20I%20have%20a%20question%20for%20%22Frontend%20Velocity%22?&labels=feedback";
 
 export const docsResource = {
   Welcome: ["Introduction"],
@@ -92,5 +94,5 @@ export const docsResource = {
     "Typography",
   ],
   Learnings: [],
-  Templates: []
+  Templates: [],
 };
