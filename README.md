@@ -46,3 +46,8 @@ Happy coding!
 
 [![Ask a Question](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Clueless-Community/seamless-ui/issues/new?title=Feedback%20for%20%E2%80%9CWhat%20is%20SeamLess%20UI%20%3F%E2%80%9D&labels=feedback)
 
+
+## Support
+
+Don't forget to leave a star ⭐️.
+
