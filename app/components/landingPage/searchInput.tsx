@@ -6,9 +6,7 @@ type SearchInputProp = {
   hideInSmallScreen: boolean;
 };
 
-const SearchInput = ({
-  hideInSmallScreen,
-}: SearchInputProp) => {
+const SearchInput = ({ hideInSmallScreen }: SearchInputProp) => {
   return (
     <div
       className={` relative h-[50px] ${
@@ -20,15 +18,15 @@ const SearchInput = ({
         size="sm"
         width={20}
         height={20}
-        className={`text-[#F1F5F9]
+        className={`
         absolute left-2`}
       />
       <input
-        className={`text-[#F1F5F9] placeholder-[#F1F5F9] pl-12 bg-transparent w-full h-full p-2 focus:outline-none`}
+        className={`placeholder-black pl-12 bg-transparent w-full h-full p-2 focus:outline-none`}
         placeholder="Search"
       />
       <span
-        className={`border-gray-300 text-[#F1F5F9] h-[30px] p-2 border-2 text-center border-solid text-[11px] rounded-md my-2 mx-3`}
+        className={`border-gray-700 h-[30px] p-2 border-2 text-center border-solid text-[11px] rounded-md my-2 mx-3`}
       >
         /
       </span>

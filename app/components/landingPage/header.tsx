@@ -14,13 +14,13 @@ type HeaderProp = {
 const Header = ({ toggleHeader, settoggleHeader }: HeaderProp) => {
   const pathname = usePathname();
   return (
-    <nav className="flex fixed p-6 items-center justify-between w-full">
+    <nav className="flex fixed p-4 items-center bg-white justify-between w-full">
       <div className="flex items-center justify-center gap-6">
         <Link href={"/"}>
           <Image
             alt="logo"
-            src={"/light-logo.png"}
-            width={50}
+            src={"/logo.png"}
+            width={200}
             height={50}
             className="cursor-pointer"
           />
@@ -28,13 +28,13 @@ const Header = ({ toggleHeader, settoggleHeader }: HeaderProp) => {
         <Link
           className={`${
             pathname.includes("/docs") && "bg-purple-200/10"
-          } md:block hidden rounded-md p-3 text-[#e8ddff] hover:text-purple-300 hover:bg-purple-200/10 cursor-pointer`}
+          } md:block hidden rounded-md p-3 hover:text-purple-700 hover:bg-purple-800/10 cursor-pointer`}
           href={"/docs/Introduction"}
         >
           DOCS
         </Link>
         <Link
-          className={`md:block hidden rounded-md p-3 text-[#e8ddff] hover:text-purple-300 hover:bg-purple-200/10 cursor-pointer`}
+          className={`md:block hidden rounded-md p-3 hover:text-purple-700 hover:bg-purple-800/10 cursor-pointer`}
           href={"/#faqs"}
         >
           FAQS
@@ -48,7 +48,7 @@ const Header = ({ toggleHeader, settoggleHeader }: HeaderProp) => {
           width={20}
           height={20}
           onClick={() => settoggleHeader(!toggleHeader)}
-          className={`bg-purple-200/10 text-purple-300 cursor-pointer p-2 rounded-md`}
+          className={`bg-purple-800/10 text-purple-700 cursor-pointer p-2 rounded-md`}
         />
       </div>
       <SearchInput hideInSmallScreen={true} />
